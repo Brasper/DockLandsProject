@@ -10,4 +10,16 @@ package docklandsproject;
  */
 public interface MaintenanceOperations {
     
+    void addRequest(MaintenanceRequest r);
+    
+    MaintenanceRequest processRequest();
+    
+    MaintenanceRequest viewNextRequest();
+    
+    void updateRequest(int requestId, int newPriority);
+    
+    void deleteRequest(int requestId);
+    
+
+    
 }

@@ -10,4 +10,14 @@ package docklandsproject;
  */
 public interface DockOperations {
     
+    void addDock(Dock d);
+    
+    void removeDock(int dockId);
+    
+    Dock findDock(int dockId);
+    
+    void updateDock( Dock d );
+    
+    void displayDocks();
+    
 }
