@@ -12,9 +12,9 @@ public class Node {
     private Dock dock;
     private Node next;
 
-    public Node(Dock dock, Node next) {
+    public Node(Dock dock) {
         this.dock = dock;
-        this.next = next;
+        next = null;
     }
 
     public Dock getDock() {
