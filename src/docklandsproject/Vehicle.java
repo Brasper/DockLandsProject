@@ -38,6 +38,6 @@ public class Vehicle {
     }
     
     public String printDetails(){
-        return "Vehicle:" + vehicleId + "Type:" + type;
+        return "Vehicle:" + vehicleId + " | Type:" + type;
     }
 }

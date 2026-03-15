@@ -66,6 +66,6 @@ public class MaintenanceRequest implements Comparable<MaintenanceRequest>{
     }
     
     public String printDetails(){
-        return "Request ID:" + requestId + "Dock ID:" + dockId + "Issue:" + issueDescription + "Priority:" + priorityLevel;
+        return "Request ID:" + requestId + " | Dock ID:" + dockId + "| Issue:" + issueDescription + " | Priority:" + priorityLevel;
     }
 }

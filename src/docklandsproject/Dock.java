@@ -68,7 +68,7 @@ public class Dock {
     }
     
     public String printDetails(){
-        return "Dock ID:" + dockId + "Location:" + location + "Bikes:" + bikesAvailable + "Scooters:" + scootersAvailable + "Status:" + status;
+        return "Dock ID:" + dockId + "| Location:" + location + " | Bikes:" + bikesAvailable + " | Scooters:" + scootersAvailable + " |Status:" + status;
         
     }
 }

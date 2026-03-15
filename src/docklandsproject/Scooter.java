@@ -29,6 +29,6 @@ public class Scooter extends Vehicle{
     
     @Override
     public String printDetails(){
-        return "Vehicle ID:" + getVehicleId() + "Type:" + getType() + "Max Speed:" + maxSpeed;
+        return "Vehicle ID:" + getVehicleId() + " | Type:" + getType() + " | Max Speed:" + maxSpeed;
     }
 }

@@ -28,6 +28,6 @@ public class Bike extends Vehicle {
     }
     @Override
     public String printDetails(){
-        return "Vehicle ID:" + getVehicleId() + "Type:" + getType() + "Gears:" + gearCount;
+        return "Vehicle ID:" + getVehicleId() + " |Type:" + getType() + " | Gears:" + gearCount;
     }
 }
