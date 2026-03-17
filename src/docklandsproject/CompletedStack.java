@@ -18,11 +18,13 @@ public class CompletedStack {
     public CompletedStack() {
         stack = new Stack<>();
     }
-    //pushes a completed request onto the top of the stack gets called when maintenacance request is processed
+    //pushes a completed request onto the top of the stack 
+    //called when a maintenacance request is processed
     public void push(MaintenanceRequest r) {
         stack.push(r);
     }
-    //removes and returns the top from the stack and returns if null is empty
+    //removes and returns the top from the stack
+    // returns if null is empty
     public MaintenanceRequest pop(){
         // checks stack is empty before popping
         if(! stack.isEmpty()){
@@ -38,7 +40,7 @@ public class CompletedStack {
             System.out.println("No Completed requests done yet");
             return;
         }
-        //loops thouhg stack and prints each request
+        //loops through stack and prints each request
         for(MaintenanceRequest r : stack){
             System.out.println(r.printDetails());
         }

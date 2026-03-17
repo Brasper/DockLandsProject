@@ -12,7 +12,7 @@ public class Scooter extends Vehicle{
     //private int field
     private int maxSpeed;
 
-    //empty constructor
+    //default constructor
     public Scooter() {
     }
     //full constructor calls super to pass vehicleId and type to the parent vehicle class

@@ -67,7 +67,7 @@ public class MaintenanceRequest implements Comparable<MaintenanceRequest>{
         return Integer.compare(this.priorityLevel, other.priorityLevel);
     }
     // returns all request detials as a string
-    // displays the reuest infromatioj in the gui output area
+    // displays the reuest infromation in the gui output area
     public String printDetails(){
         return "Request ID:" + requestId + " | Dock ID:" + dockId + "| Issue:" + issueDescription + " | Priority:" + priorityLevel;
     }

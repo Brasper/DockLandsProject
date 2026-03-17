@@ -16,7 +16,7 @@ public class Main {
     public static void main(String[] args) {
         // Testing the DockLinkedList
         DockLinkedList dockList = new DockLinkedList();
-        //Creates new docklinkedlist object
+        //Creates 3 new docklinkedlist object
         dockList.addDock(new Dock(1,"Grand Canal", 5, 3, "Active"));
         dockList.addDock(new Dock(2,"Custom House", 3, 2, "Active"));
         dockList.addDock(new Dock(3,"IFSC", 0, 0, "Maintenance"));
