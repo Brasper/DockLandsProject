@@ -477,7 +477,19 @@ public class DockLandsGUI extends javax.swing.JFrame {
               
               );
               return;
+          }  
+          // checks if dock id is already exists in linked list
+          Dock existing = dockList.findDock(id);
+          if (existing !=null){
+              //shows error if dock id already exsits
+              outputArea.setText(
+                      "=== Error ===\n\n" +
+                      "Dock ID:" + id + " already exists\n" +
+                      "Please enter Dock ID thats not already used"
+              );
+              return;
           }
+          
           // creating neeew dock object wiht the entered details
           Dock d = new Dock(id, location, bikes, scooters, status);
           //add dock to linked list
